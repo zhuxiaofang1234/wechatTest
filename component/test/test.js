@@ -15,6 +15,7 @@ Component({
   /**
    * 组件的初始数据
    *  ssh-keygen -t rsa -C "819508408@qq.com"
+   * git@github.com:zhuxiaofang1234/wechatTest.git
    */
   data: { 
     //私有数据，可用于模板渲染
