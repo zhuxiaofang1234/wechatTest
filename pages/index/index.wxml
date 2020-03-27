@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<button bindtap="handleSubmit" class="btn">新增</button>
+<dialog id="dialog"
+    title="请确认资产项目信息"
+    confirmText="确定"
+    cancelText="取消"
+    content="{{dialogContent}}"
+    bind:cancel="handleCancelDialog"
+    bind:confirm="handleConfirmDialog"    
+>
+</dialog>

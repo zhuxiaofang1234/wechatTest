@@ -1,0 +1,13 @@
+<view class="my-dialog" hidden="{{!showDialog}}">
+  <view class="my-mask"></view>
+  <view class="my-container">
+    <view class="title">{{title}}</view>
+    <view class="content">
+      <view class="row" wx:for="{{content}}">{{item.label}}----{{item.value}}</view>
+    </view>
+    <view class="btn-row">
+      <view class="confirm" bindtap="_comfirm">{{confirmText}}</view>
+      <view class="cancel" bindtap="_cancel">{{cancelText}}</view>
+    </view>
+  </view>
+</view>
