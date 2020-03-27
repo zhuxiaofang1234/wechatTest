@@ -14,6 +14,7 @@ Component({
 
   /**
    * 组件的初始数据
+   *  ssh-keygen -t rsa -C "819508408@qq.com"
    */
   data: { 
     //私有数据，可用于模板渲染
