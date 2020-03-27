@@ -10,13 +10,13 @@ Component({
       value:''    
     },
     myProperty2:String //简化的定义方式
-
   },
 
   /**
    * 组件的初始数据
    */
-  data: { //私有数据，可用于模板渲染
+  data: { 
+    //私有数据，可用于模板渲染
 
   },
   lifetimes: {   //生命周期函数，可以为函数，或在一个methods段中定义的方法名
